@@ -55,13 +55,11 @@
             android:id="@+id/grandsText" />
     </ScrollView>
 
-    <Button
-        android:text="Button"
+    <SeekBar
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/grandName"
+        android:layout_above="@+id/publishButton"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="11dp"
-        android:id="@+id/button2" />
+        android:id="@+id/seekBar" />
 
 </RelativeLayout>
